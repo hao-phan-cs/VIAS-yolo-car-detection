@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.tensorflow.demo.AutoFitTextureView
+        android:id="@+id/texture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="99dp"/>
+
+    <org.tensorflow.demo.BoundingBoxView
+        android:id="@+id/bounding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Phát hiện phương tiện giao thông"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/buttonCommand"
+        style="?android:attr/borderlessButtonStyle" />
+
+</RelativeLayout>
